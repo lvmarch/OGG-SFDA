@@ -33,7 +33,7 @@ This work introduces:
 
 ## 📊 Highlights
 
-- Significantly outperforms previous state-of-the-art methods in **source-free echocardiographic video segmentation**.
+- Significantly outperforms previous state-of-the-art methods in **source-free domain adaptation echocardiographic video segmentation**.
 - Improves **stability**, **accuracy**, and **adaptability** of test-time domain adaptation under real clinical domain shifts.
 
 ---
@@ -47,12 +47,13 @@ Experiments are conducted on three public echocardiographic datasets. Details an
 ## 📁 Project Structure (To be updated)
 
 OGG-TTT/
-│
 ├── models/ # Network architectures
 ├── losses/ # Loss functions including Gradient Orthogonality Constraint
 ├── datasets/ # Dataset loaders and preprocessing
 ├── utils/ # Helper functions
 ├── configs/ # Training and evaluation configs
-├── test_time_train.py # Entry point for TTT
-├── requirements.txt # Dependencies
-└── README.md # This file
+├── test_time_train.py # Entry point for test-time training
+├── train_source.py # (Optional) For pre-training on source domain
+├── evaluate.py # Model evaluation scripts
+├── requirements.txt # Dependency list
+└── README.md # Project documentation
