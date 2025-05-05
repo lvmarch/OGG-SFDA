@@ -1,4 +1,4 @@
-# Orthogonal Gradient Guided Test-Time Training (OGG-TTT)
+# Orthogonal Gradient Guided Test-Time Training for Source-Free Domain Adaptation in Echocardiographic Video Segmentation (OGG-SFDA)
 
 This repository will host the official code for the paper:
 
