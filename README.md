@@ -48,13 +48,13 @@ Experiments are conducted on three public echocardiographic datasets. Details an
 
 ```bash
 OGG-TTT/
-├── models/              # Network architectures
-├── losses/              # Loss functions including Gradient Orthogonality Constraint
-├── datasets/            # Dataset loaders and preprocessing
-├── utils/               # Helper functions
-├── configs/             # Training and evaluation configs
-├── test_time_train.py   # Entry point for test-time training
-├── train_source.py      # (Optional) For pre-training on source domain
-├── evaluate.py          # Model evaluation scripts
-├── requirements.txt     # Dependency list
-└── README.md            # Project documentation
+├── models/              
+├── losses/             
+├── datasets/            
+├── utils/               
+├── configs/             
+├── test_time_train.py   
+├── train_source.py      
+├── evaluate.py          
+├── requirements.txt     
+└── README.md            
